@@ -1,3 +1,4 @@
 # weather_report
-hello
-hosted site address:amitkumarsatpute.pythonanywhere.com
+hello,
+
+Hosted site address:  amitkumarsatpute.pythonanywhere.com
