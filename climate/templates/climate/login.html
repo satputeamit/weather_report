@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<form action="{% url 'climate:login' %}" method="post">
+  {% csrf_token %}
+  <div class="row py-5">
+    <div class="col-md-5 mx-auto">
+      <h3 class="py-3">Longin</h3>
+      <h5 style="color:red">{{msg}}</h5>
+      <input type="text" name="username" value="" placeholder="User Name" class="form-control" required>
+      <br>
+       <input type="password" name="password" value="" placeholder='password' class="form-control" required>
+      <br>
+      <button type="submit" name="button"  class="btn btn-success">Login </button>
+
+
+  </div>
+  </div>
+
+
+</form>
+{% endblock %}}
